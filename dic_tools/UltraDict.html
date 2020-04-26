@@ -1,0 +1,110 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=gb_2312-80">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>黑客字典II说明</title>
+</head>
+
+<body link="#0000FF">
+
+<p align="center"><font size="6" face="黑体">黑客字典II使用说明</font></p>
+
+<hr>
+
+<p><font size="4" face="黑体"><b>请不要将此软件用于违法的行为，否则由此产生的一切后果由您自己负责</b></font><font
+size="5" face="黑体"><b>！</b></font></p>
+
+<p><font size="3" face="宋体"><b>简介</b></font></p>
+
+<p><font size="3" face="宋体">黑客字典II是在黑客字典V0.9发布之后，在听取广大网友意见的基础上重写而成的。她几乎可以生成任何形式的密码组合，可用于产生密码文件，以便和一些解密软件配合使用。如：网络刺客、John
+The Ripper、Jack、CrackZip、CrackArj等。本软件是免费的，您可以自由传播。</font></p>
+
+<p><font size="3" face="宋体"><b>功能说明</b></font></p>
+
+<p><font size="3" face="宋体">使用方式</font></p>
+
+<p><font size="3" face="宋体">本软件有两种使用方式：属性表和向导。您可以根据自己的喜好选择。</font></p>
+
+<p><font size="3" face="宋体">注册</font></p>
+
+<p><font size="3" face="宋体">本软件是一个共享软件，如果您需要使用它的全部功能，测需要进行注册。这种注册是免费的。您只要发一封标题为“注册”的电子邮件到</font><a
+href="mailto:Assassin@ynmail.com"><font size="3" face="宋体">Assassin@ynmail.com</font></a><font
+size="3" face="宋体">即可收到以同样方式发回的注册码。</font></p>
+
+<p><font size="3" face="宋体">基本设定</font></p>
+
+<p><font size="3" face="宋体">在基本设定中，您可以设定单词中字母和数字的数目、范围。例如设定字母数为3，数字数为2，字母范围为从a到z，数字范围从0到9。这样产生的字典是从aaa00~zzz99的所有组合。当然您也可以只选定字母或数字。在基本选项中，还有一个符号的选项，如果选中，则您的字母组合为所选的字母范围加上符号（对应于ASCII码中的33~47）。</font></p>
+
+<p><font size="3" face="宋体"><b>选项（需要注册）</b></font></p>
+
+<p><font size="3" face="宋体">（1）、所有字母大写</font></p>
+
+<p><font size="3" face="宋体">对应于前面的设定，产生的字典范围：AAA00~ZZZ99。</font></p>
+
+<p><font size="3" face="宋体">（2）、首字母大写</font></p>
+
+<p><font size="3" face="宋体">对应于前面的设定，产生的字典范围：Aaa00~Zzz99。</font></p>
+
+<p><font size="3" face="宋体">（3）、数字在字母前</font></p>
+
+<p><font size="3" face="宋体">对应于前面的设定，产生的字典范围：00aaa~99zzz。</font></p>
+
+<p><font size="3" face="宋体">（4）、使用LF间隔</font></p>
+
+<p><font size="3" face="宋体">一般的解密软件所使用的字典要求每个单词间用LF和CR作为间隔，但是也有要求只用LF做间隔的。如：CrackZip。</font></p>
+
+<p><font size="3" face="宋体">（5）、只使用辅音字母</font></p>
+
+<p><font size="3" face="宋体">在研究了大量密码的基础上，我们发现有很大一部分密码都是以用户自己名称的拼音缩写加数字而来，而一般拼音缩写的字母绝大多数是辅音字母。于是我们就有针对性地设置了这个选项。</font></p>
+
+<p><font size="3" face="宋体"><b>文件保存</b></font></p>
+
+<p><font size="3" face="宋体">您可以在这里设定将要产生的字典文件的存放位置和名称。</font></p>
+
+<p><font size="3" face="宋体"><b>高级选项（需要注册）</b></font></p>
+
+<p><font size="3" face="宋体">在高级选项中，您可以自由地定制单词的形式。</font></p>
+
+<p><font size="3" face="宋体">（1）、使用高级选项生成字典</font></p>
+
+<p><font size="3" face="宋体">如果使用这种方式来产生字典，您就可以对字典的每一位进行定制。例如可以定制第一位是字母，第二位为数字，第三位为字母，第四位为符号.................等。这些字母或数字的范围取决于您在[基本]中的设定。如果您没有设定，则默认字母从a~z，数字从0~9。</font></p>
+
+<p><font size="3" face="宋体">（2）、定制每一个位置字母的范围</font></p>
+
+<p><font size="3" face="宋体">如果上述的要求，还不能满足您的需要的话，那么您就只有采用这个功能了。如果您采用了这个功能，那么前面的所有选项都统统失效。使用的方法是这样：</font></p>
+
+<p><font size="3" face="宋体">首先在C：的根目录下建立一个文本文件（纯文本），名字为CustBanyet.Def。</font></p>
+
+<p><font size="3" face="宋体">在这个文件中输入单词中每一位的范围（每一行代表一位，超过8行则8行后自动舍弃。每行字符数不大于40）。如：</font></p>
+
+<p><font size="3" face="宋体">abcdefghijklmnopqrstuvwxyz</font></p>
+
+<p><font size="3" face="宋体">23456</font></p>
+
+<p><font size="3" face="宋体">/!@#$%</font></p>
+
+<p><font size="3" face="宋体">ABC</font></p>
+
+<p><font size="3" face="宋体">如果文件向上面一样，则产生的字典中每一个单词的第一位的范围就是第一行的字符串的范围（abcdefghijklmnopqrstuvwyxz），第二行的范围就是第二行的字符串...........以此类推。</font></p>
+
+<p><font size="3" face="宋体">注意：在C:\CustBanyet.Def文件没有建立之前，该选项是无效的。</font></p>
+
+<p><font size="3" face="宋体"><b>产生字典</b></font></p>
+
+<p><font size="3" face="宋体">在设定完成后，您会看到一个对话框，其中包含了您设置字典情况的信息，如果一切无误的话，则按[开始]就可生成字典，否则清除后重新设定。</font></p>
+
+<p><font size="3" face="宋体"><b>其它</b></font></p>
+
+<p><font size="3" face="宋体">如果您在使用中有任何问题或建议和意见请和我联系，谢谢！</font></p>
+
+<p><font size="3">特别感谢SunZhen网友为本软件做的测试!</font></p>
+
+<p>　</p>
+
+<p align="center"><font size="4" face="宋体"><strong>小榕软件实验室</strong></font></p>
+
+<p align="center"><font size="4" face="宋体"><strong>1999/4/8</strong></font></p>
+</body>
+</html>
