@@ -5,7 +5,7 @@
 
 为了让大家可以爆破得到密码，在此放上测试握手包  
 
-![img](https://github.com/hackxc/wifi_dictionary/blob/master/img/demo.png)  
+![img](https://github.com/hackxc/wifi_dictionary/blob/master/demo.png)  
 
 **参考文章**  
 
