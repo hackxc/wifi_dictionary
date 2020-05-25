@@ -9,5 +9,5 @@
 
 **参考文章**  
 
-盘点那些Wifi破解姿势：http://www.hackxc.cc/?post=54
+盘点那些Wifi破解姿势：http://www.hackxc.cc/?post=305
 
